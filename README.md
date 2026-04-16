@@ -21,6 +21,27 @@ Terminal UI for [Chat Noir](https://chatnoir.fun) — browse cats and categories
 
 ## Install
 
+### Pre-built binaries (recommended)
+
+Download the latest release for your platform from [GitHub Releases](https://github.com/mousty00/chat-noir-tui/releases/latest):
+
+| Platform | File |
+|----------|------|
+| macOS (Apple Silicon) | `chat-noir-tui_Darwin_arm64.tar.gz` |
+| macOS (Intel) | `chat-noir-tui_Darwin_x86_64.tar.gz` |
+| Linux (x86_64) | `chat-noir-tui_Linux_x86_64.tar.gz` |
+| Linux (ARM64) | `chat-noir-tui_Linux_arm64.tar.gz` |
+| Windows (x86_64) | `chat-noir-tui_Windows_x86_64.zip` |
+
+Extract and move the binary to your `$PATH`:
+
+```bash
+tar -xzf chat-noir-tui_*.tar.gz
+sudo mv chat-noir-tui /usr/local/bin/
+```
+
+### From source
+
 Requires Go 1.21+.
 
 ```bash

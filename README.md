@@ -23,22 +23,40 @@ Terminal UI for [Chat Noir](https://chatnoir.fun) — browse cats and categories
 
 ### Pre-built binaries (recommended)
 
-Download the latest release for your platform from [GitHub Releases](https://github.com/mousty00/chat-noir-tui/releases/latest):
+Download the latest release for your platform from the [Releases page](../../releases/latest).
 
-| Platform | File |
-|----------|------|
-| macOS (Apple Silicon) | `chat-noir-tui_Darwin_arm64.tar.gz` |
-| macOS (Intel) | `chat-noir-tui_Darwin_x86_64.tar.gz` |
-| Linux (x86_64) | `chat-noir-tui_Linux_x86_64.tar.gz` |
-| Linux (ARM64) | `chat-noir-tui_Linux_arm64.tar.gz` |
-| Windows (x86_64) | `chat-noir-tui_Windows_x86_64.zip` |
-
-Extract and move the binary to your `$PATH`:
+#### macOS (Apple Silicon)
 
 ```bash
-tar -xzf chat-noir-tui_*.tar.gz
-sudo mv chat-noir-tui /usr/local/bin/
+tar -xzf chatnoir_Darwin_arm64.tar.gz
+sudo mv chatnoir /usr/local/bin/
 ```
+
+#### macOS (Intel)
+
+```bash
+tar -xzf chatnoir_Darwin_x86_64.tar.gz
+sudo mv chatnoir /usr/local/bin/
+```
+
+#### Linux (x86_64)
+
+```bash
+tar -xzf chatnoir_Linux_x86_64.tar.gz
+sudo mv chatnoir /usr/local/bin/
+```
+
+#### Linux (ARM64)
+
+```bash
+tar -xzf chatnoir_Linux_arm64.tar.gz
+sudo mv chatnoir /usr/local/bin/
+```
+
+#### Windows (x86_64)
+
+1. Extract `chatnoir_Windows_x86_64.zip`
+2. Move `chatnoir.exe` to a folder in your `PATH`, e.g. `C:\Windows\System32\`
 
 ### From source
 
@@ -51,7 +69,7 @@ go install github.com/mousty00/chat-noir-tui@latest
 ## Usage
 
 ```bash
-chat-noir-tui
+chatnoir
 ```
 
 ## Navigation
